@@ -1,12 +1,28 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>This is my GitHub</title>
-  </head>
-  <body>
-    <h1>
-      Hello Everyone!!!
-    </h1>
-  </body>
+<head>
+  <title>Donation System</title>
+  <link rel="stylesheet" href="donate.css">
+  <script src="donate.js" defer></script>
+</head>
+<body>
+  <h2>Donation System</h2>
 
-  
+  <input type="text" id="donorName" placeholder="Donor Name"><br><br>
+  <input type="email" id="email" placeholder="Email"><br><br>
+  <input type="text" id="phone" placeholder="Phone Number (11 digits)" maxlength="11"><br><br>
+  <input type="text" id="itemName" placeholder="Item"><br><br>
+
+  <select id="category">
+    <option value="">Select Category</option>
+    <option value="Food">Food</option>
+    <option value="Clothes">Clothes</option>
+    <option value="Funds">Funds</option>
+  </select><br><br>
+
+  <input type="number" id="quantity" placeholder="Quantity"><br><br>
+  <button id="addDonation">Add Donation</button>
+
+  <p><a href="login.html">Owner Login</a></p>
+</body>
 </html>
